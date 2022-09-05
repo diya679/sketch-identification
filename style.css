@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(196, 238, 214);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+canvas{
+    border: 2px solid black;
+    border-radius:40px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 40px tomato;}
+    to{box-shadow: 1px 1px 40px rgb(48, 136, 166);}
+}
+h1{
+    color: black;
+    background-color: antiquewhite;
+}
+#show_sketch{
+    float: right;
+}
